@@ -51,10 +51,12 @@
   font-weight: bold;
   font-size: 24px;
 }
+.navbar-brand:visited {
+  color: #9b59b6; /* Cor após visita */
+}
+
 .navbar-brand:hover {
-  color: #c47ee2; /* Cor roxa para o logo */
-  font-weight: bold;
-  font-size: 24px;
+  text-decoration: underline; /* Ou qualquer efeito de hover desejado */
 }
 .offcanvas{
   background-color: hsl(0, 0%, 100%); /* cor de fundo do menu*/
