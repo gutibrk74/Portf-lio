@@ -51,8 +51,13 @@
   font-weight: bold;
   font-size: 24px;
 }
+.navbar-brand:hover {
+  color: #c47ee2; /* Cor roxa para o logo */
+  font-weight: bold;
+  font-size: 24px;
+}
 .offcanvas{
-  background-color: #333333; /* cor de fundo do menu*/
+  background-color: hsl(0, 0%, 100%); /* cor de fundo do menu*/
 }
 .offcanvas-title{
   color: #ddd; /*cor do titulo do menu */
@@ -93,9 +98,6 @@
 .nav_item {
   /*caso de problema nos links do header tirar o elemento inline*/
   display: inline;
-}
-.butan-ze button{
-  color: #ddd;
 }
 
 /* fim da nav*/
